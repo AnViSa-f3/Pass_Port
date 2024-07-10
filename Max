@@ -1,0 +1,9 @@
+MaxValue =
+CALCULATE(
+    MAX(Table[Value]),
+    FILTER(
+        Table,
+        Table[Condition1] = "Condition1Value" && Table[Condition2] = "Condition2Value"
+    )
+)
+)
